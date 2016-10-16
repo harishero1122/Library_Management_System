@@ -1,0 +1,55 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Testing Database</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Testing Database</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Testing Database.csproj" File="Testing Database.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="app.config">app.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DAL.cs">DAL.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form2.cs">Form2.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form2.Designer.cs">Form2.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form2.resx">Form2.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form3.cs">Form3.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form3.Designer.cs">Form3.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form3.resx">Form3.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form4.cs">Form4.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form4.Designer.cs">Form4.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form4.resx">Form4.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form5.cs">Form5.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form5.Designer.cs">Form5.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form5.resx">Form5.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Library_mgmtDataSet.xsd">Library_mgmtDataSet.xsd</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Library_mgmtDataSet.Designer.cs">Library_mgmtDataSet.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Library_mgmtDataSet.xsc">Library_mgmtDataSet.xsc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Library_mgmtDataSet.xss">Library_mgmtDataSet.xss</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Register.cs">Register.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Register.Designer.cs">Register.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Register.resx">Register.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Supplier.cs">Supplier.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Supplier.Designer.cs">Supplier.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Supplier.resx">Supplier.resx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
